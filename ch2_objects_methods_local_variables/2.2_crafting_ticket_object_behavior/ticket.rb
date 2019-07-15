@@ -24,10 +24,10 @@ def ticket.price
   5.50
 end
 
-puts "This ticket is for: #{ticket.event}, at #{ticket.venue}.\n" +
-"The performer is #{ticket.performer}.\n" +
-"The seat us #{ticket.seat}, " +
-"and it costs $#{"%.2f" % ticket.price}"
+# puts "This ticket is for: #{ticket.event}, at #{ticket.venue}.\n" +
+# "The performer is #{ticket.performer}.\n" +
+# "The seat us #{ticket.seat}, " +
+# "and it costs $#{"%.2f" % ticket.price}"
 
 # print "This ticket is for: "
 # print ticket.event + ", at "
@@ -39,3 +39,5 @@ puts "This ticket is for: #{ticket.event}, at #{ticket.venue}.\n" +
 # print ticket.seat + ", "
 # print "and it costs $"
 # puts "%.2f." % ticket.price
+
+p Object.new.methods.sort
