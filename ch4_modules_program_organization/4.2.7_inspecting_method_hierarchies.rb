@@ -24,3 +24,7 @@ end
 
 p t = Tandem.new(1)
 p t.method(:rent)
+p t.method(:rent).super_method
+
+t.method(:rent).call
+t.method(:rent).super_method
