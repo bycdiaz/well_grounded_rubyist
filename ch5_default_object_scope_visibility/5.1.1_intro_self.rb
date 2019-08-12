@@ -15,6 +15,3 @@ class C
     puts "self is #{self}"
   end
 end
-
-c = C.new
-puts c.m
