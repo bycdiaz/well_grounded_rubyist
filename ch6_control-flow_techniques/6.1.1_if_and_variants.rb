@@ -52,16 +52,36 @@
 
 
 # negating conditions with not and !
-x = 2
-# if not (x == 1) # parenthesis not required here
-if !(x == 1) # must wrap condition in parenthesis
-  puts true
-else
-  puts false
-end
+# x = 2
+# # if not (x == 1) # parenthesis not required here
+# if !(x == 1) # must wrap condition in parenthesis
+#   puts true
+# else
+#   puts false
+# end
 
 # using paranthesis, even when not required, aids in readability
 
 
 # Unless keyword
-leff off on page 162
+# unless x == 1
+
+# it's usually better to avoide unless
+
+
+# conditional modifiers
+
+# x = 101
+# puts "Big number!" if x > 100
+
+# same as:
+
+# if x > 100
+#   puts "Big number!"
+# end
+# same as
+
+# puts "Big number!" unless x <= 100
+
+# good for short statements but avoid long stuff -- becomes unreadable and confusing
+# puts "done" && return (x > y && a < b) unless c == 0
