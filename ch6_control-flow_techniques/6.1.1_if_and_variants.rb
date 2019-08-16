@@ -52,4 +52,16 @@
 
 
 # negating conditions with not and !
-left off on page 162
+x = 2
+# if not (x == 1) # parenthesis not required here
+if !(x == 1) # must wrap condition in parenthesis
+  puts true
+else
+  puts false
+end
+
+# using paranthesis, even when not required, aids in readability
+
+
+# Unless keyword
+leff off on page 162
